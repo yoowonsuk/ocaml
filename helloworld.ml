@@ -18,3 +18,6 @@ let _ = print_endline helloworld;;
 ();;
 
 (* neg (-1);; *)
+
+not true;;
+(* neg true;; *)
