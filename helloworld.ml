@@ -6,6 +6,10 @@ let _ = print_endline helloworld;;
 1+2*3;;
 
 7/3;;
+7.0/.float_of_int 3;;
+not true;; (* works *)
+(* net true;; wrong syntax *)
+
 
 3 = 3;;
 4 <> 4;;
@@ -17,7 +21,4 @@ let _ = print_endline helloworld;;
 "cose212";;
 ();;
 
-(* neg (-1);; *)
-
-not true;;
-(* neg true;; *)
+(* neg (-1);; neg는 함수 음수전달에는 괄호*)
