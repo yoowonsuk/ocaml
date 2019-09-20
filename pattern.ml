@@ -36,7 +36,7 @@ let first_if_true test x y =
   
 let fst p = match p  with (x,_) -> x;;
 fst(1, 2);;
-(*)
+(*
 fst(1);;
 fst(1, 2, 3);;
 *)
